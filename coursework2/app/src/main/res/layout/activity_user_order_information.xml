@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/dash2"
+    tools:context=".Activity_user_order_information">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Receiver Details"
+        android:layout_marginBottom="20dp"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/txt_user_order_usrName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginBottom="20dp"
+        android:ems="10"
+        android:hint="Name"
+        android:textColorHint="#ffffff"
+        android:textColor="#ffffff"
+        android:backgroundTint="#ffffff"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/txt_user_order_usrTown"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginBottom="20dp"
+        android:textColorHint="#ffffff"
+        android:backgroundTint="#ffffff"
+        android:textColor="#ffffff"
+        android:ems="10"
+        android:hint="Town"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/txt_user_order_usrAdd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginBottom="20dp"
+        android:textColorHint="#ffffff"
+        android:backgroundTint="#ffffff"
+        android:textColor="#ffffff"
+        android:ems="10"
+        android:hint="Address"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/txt_user_order_usrMail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginBottom="25dp"
+        android:textColorHint="#ffffff"
+        android:backgroundTint="#ffffff"
+        android:textColor="#ffffff"
+        android:ems="10"
+        android:hint="Email Address"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/btn_user_submit_order"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="50dp"
+        android:background="@drawable/edit_button"
+        android:text="submit"
+        android:textStyle="bold" />
+</LinearLayout>

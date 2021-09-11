@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/dash2"
+    tools:context=".Activity_user_home">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        app:srcCompat="@drawable/dashboard" />
+
+    <Button
+        android:id="@+id/btn_user_viewItem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/edit_button"
+        android:text="view item"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn_user_manageCart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/edit_button"
+        android:text="manage cart"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn_user_signout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:background="@drawable/edit_button"
+        android:text="Sign Out"
+        android:textStyle="bold" />
+
+</LinearLayout>

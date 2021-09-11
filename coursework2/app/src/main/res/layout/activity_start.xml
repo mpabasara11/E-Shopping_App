@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activity_start"
+    android:background="@drawable/startnew">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="70dp"
+        android:text="Welcome!"
+        android:textAlignment="viewStart"
+        android:textColor="#1D14A1"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10dp"
+        android:text="Find it, Love it, Buy it"
+        android:textColor="#1D14A1"
+        android:textSize="16sp" />
+
+    <ImageView
+        android:layout_marginTop="56dp"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/startup" />
+
+    <Button
+        android:id="@+id/btn_Tosignin"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/edit_button"
+        android:text="SIGN IN"
+        android:textStyle="bold"
+        android:layout_gravity="center" />
+
+    <Button
+        android:id="@+id/btn_Tosignup"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:text="SIGN UP"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:background="@drawable/edit_button" />
+
+
+</LinearLayout>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.coursework">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/custom_icons"
+        android:label="SmartTech Solutions"
+        android:roundIcon="@mipmap/custom_icons_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Coursework">
+        <activity
+            android:name=".Activity_admin_view_order_items"
+            android:exported="true" />
+        <activity
+            android:name=".Activity_admin_view_orders"
+            android:exported="true" />
+        <activity
+            android:name=".Activity_user_cart_view"
+            android:exported="true" />
+        <activity
+            android:name=".Activity_user_items_quentity_to_cart"
+            android:exported="true" />
+        <activity
+            android:name=".Activity_admin_manage_items"
+            android:exported="true" />
+        <activity
+            android:name=".Activity_admin_add_item"
+            android:exported="true" />
+        <activity
+            android:name=".Activity_admin_home"
+            android:exported="true" />
+        <activity
+            android:name=".Activity_user_home"
+            android:exported="true" />
+        <activity
+            android:name=".Activity_user_items_view"
+            android:exported="true" />
+        <activity
+            android:name=".Activity_user_order_information"
+            android:exported="true" />
+        <activity
+            android:name=".Activity_register"
+            android:exported="true" />
+        <activity
+            android:name=".Activity_start"
+            android:exported="true" />
+        <activity
+            android:name=".Activity_login"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
